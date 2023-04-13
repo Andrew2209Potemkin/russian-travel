@@ -3,9 +3,14 @@
   min-height: 200px;
   padding-top: 66px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.cover:hover .cover__background::before {
+
+
+/*.cover:hover .cover__background::before {
   opacity: 0.8;
 }
 
@@ -28,4 +33,4 @@
     max-width: 1184px;
     min-height: 740px;
   }
-}
+}*/
